@@ -96,7 +96,7 @@ install_sim(){
         rm -rf .build/gateway-tmp
         mkdir -p .build/gateway-tmp
         pushd .build/gateway-tmp
-            go mod init gatewaybuild && GOBIN=${bin_dir} GO111MODULE=on go get storj.io/gateway@v1.0.0-rc.8
+            go mod init gatewaybuild && GOBIN=${bin_dir} GO111MODULE=on go get storj.io/gateway@master
         popd
     fi
 }
@@ -196,7 +196,7 @@ for version in ${unique_versions}; do
             echo "finished installing"
 
             echo "Setting up storj-sim for ${version}. Bin: ${bin_dir}, Config: ${dir}/local-network"
-            PATH=${bin_dir}:$PATH storj-sim -x --host="${STORJ_NETWORK_HOST4}" --postgres="${STORJ_SIM_POSTGRES}" --config-dir "${dir}/local-network" network setup > /dev/null 2>&1
+            PATH=${bin_dir}:$PATH storj-sim -x --host="${STORJ_NETWORK_HOST4}" --postgres="${STORJ_SIM_POSTGRES}" --config-dir "${dir}/local-network" network setup
             echo "Finished setting up. ${dir}/local-network:" $(ls ${dir}/local-network)
             echo "Binary shasums:"
             shasum ${bin_dir}/satellite
