@@ -1,0 +1,460 @@
+redis/0                                   10:07:08.318 | 72405:C 14 Oct 2020 10:07:08.318 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+                                                       | 72405:C 14 Oct 2020 10:07:08.318 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=72405, just started
+                                                       | 72405:C 14 Oct 2020 10:07:08.318 # Configuration loaded
+redis/0                                   10:07:08.320 | 72405:M 14 Oct 2020 10:07:08.320 # Could not create server TCP listening socket 127.0.0.1:10004: bind: Address already in use
+versioncontrol/0                          10:07:08.339 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/versioncontrol/0/config.yaml"}
+                                                       | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+versioncontrol/0                          10:07:08.339 | DEBUG	process/debug.go:37	debug server listening on 127.0.0.1:12009
+versioncontrol/0                          10:07:08.339 | DEBUG	versioncontrol/peer.go:185	Setting version info.	{"Value": "{\"Satellite\":{\"major\":0,\"minor\":0,\"patch\":1},\"Storagenode\":{\"major\":0,\"minor\":0,\"patch\":1},\"Uplink\":{\"major\":0,\"minor\":0,\"patch\":1},\"Gateway\":{\"major\":0,\"minor\":0,\"patch\":1},\"Identity\":{\"major\":0,\"minor\":0,\"patch\":1},\"processes\":{\"satellite\":{\"minimum\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"suggested\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"rollout\":{\"seed\":\"0000000000000000000000000000000000000000000000000000000000000001\",\"cursor\":\"\"}},\"storagenode\":{\"minimum\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"suggested\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"rollout\":{\"seed\":\"0000000000000000000000000000000000000000000000000000000000000001\",\"cursor\":\"\"}},\"storagenode-updater\":{\"minimum\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"suggested\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"rollout\":{\"seed\":\"0000000000000000000000000000000000000000000000000000000000000001\",\"cursor\":\"\"}},\"uplink\":{\"minimum\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"suggested\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"rollout\":{\"seed\":\"0000000000000000000000000000000000000000000000000000000000000001\",\"cursor\":\"\"}},\"gateway\":{\"minimum\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"suggested\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"rollout\":{\"seed\":\"0000000000000000000000000000000000000000000000000000000000000001\",\"cursor\":\"\"}},\"identity\":{\"minimum\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"suggested\":{\"version\":\"v0.0.1\",\"url\":\"\"},\"rollout\":{\"seed\":\"0000000000000000000000000000000000000000000000000000000000000001\",\"cursor\":\"\"}}}}"}
+versioncontrol/0                          10:07:08.340 | INFO	versioncontrol/peer.go:212	Versioning server started.	{"Address": "127.0.0.1:12000"}
+satellite-migration/0                     10:07:08.438 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/satellite/0/config.yaml"}
+satellite-migration/0                     10:07:08.438 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+satellite-migration/0                     10:07:08.444 | DEBUG	migration	satellitedb/database.go:87	Connected to:	{"db source": "postgres://yingrongzhao@localhost/storjsim?sslmode=disable&options=--search_path%3D%22satellite%2F0%22&application_name=Satellite"}
+satellite-migration/0                     10:07:08.455 | INFO	migration.migrate	migrate/versions.go:209	Database Version	{"version": 127}
+satellite-migration/0                     10:07:08.458 | DEBUG	migration	metainfo/config.go:104	Connected to:	{"db source": "postgres://yingrongzhao@localhost/storjsim?sslmode=disable&options=--search_path%3D%22satellite%2F0%2Fmeta%22"}
+satellite-repairer/0                      10:07:08.593 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/satellite/0/config.yaml"}
+satellite-repairer/0                      10:07:08.593 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+satellite-core/0                          10:07:08.593 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/satellite/0/config.yaml"}
+satellite-admin/0                         10:07:08.593 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/satellite/0/config.yaml"}
+satellite-core/0                          10:07:08.593 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+satellite-admin/0                         10:07:08.593 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+satellite-garbage-collection/0            10:07:08.594 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/satellite/0/config.yaml"}
+satellite-garbage-collection/0            10:07:08.594 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+satellite/0                               10:07:08.595 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/satellite/0/config.yaml"}
+satellite/0                               10:07:08.595 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+satellite-admin/0                         10:07:08.606 | DEBUG	db	satellitedb/database.go:87	Connected to:	{"db source": "postgres://yingrongzhao@localhost/storjsim?sslmode=disable&options=--search_path%3D%22satellite%2F0%22&application_name=Satellite"}
+satellite-repairer/0                      10:07:08.606 | DEBUG	db	satellitedb/database.go:87	Connected to:	{"db source": "postgres://yingrongzhao@localhost/storjsim?sslmode=disable&options=--search_path%3D%22satellite%2F0%22&application_name=Satellite"}
+satellite-core/0                          10:07:08.606 | DEBUG	db	satellitedb/database.go:87	Connected to:	{"db source": "postgres://yingrongzhao@localhost/storjsim?sslmode=disable&options=--search_path%3D%22satellite%2F0%22&application_name=Satellite"}
+satellite-garbage-collection/0            10:07:08.606 | DEBUG	db	satellitedb/database.go:87	Connected to:	{"db source": "postgres://yingrongzhao@localhost/storjsim?sslmode=disable&options=--search_path%3D%22satellite%2F0%22&application_name=Satellite"}
+satellite-admin/0                         10:07:08.607 | DEBUG	process/metrics.go:66	Telemetry disabled
+satellite/0                               10:07:08.608 | DEBUG	db	satellitedb/database.go:87	Connected to:	{"db source": "postgres://yingrongzhao@localhost/storjsim?sslmode=disable&options=--search_path%3D%22satellite%2F0%22&application_name=Satellite"}
+satellite-admin/0                         10:07:08.609 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 127}
+satellite-admin/0                         10:07:08.609 | DEBUG	servers	lifecycle/group.go:68	started	{"items": ["debug", "admin"]}
+                                                       | DEBUG	services	lifecycle/group.go:68	started	{"items": ["version"]}
+satellite-core/0                          10:07:08.610 | DEBUG	pointerdb	metainfo/config.go:104	Connected to:	{"db source": "postgres://yingrongzhao@localhost/storjsim?sslmode=disable&options=--search_path%3D%22satellite%2F0%2Fmeta%22"}
+satellite-core/0                          10:07:08.611 | INFO	satellite/core.go:185	Version info	{"Version": "0.0.0", "Commit Hash": "", "Build Timestamp": "0001-01-01 00:00:00 +0000 UTC", "Release Build": false}
+satellite-repairer/0                      10:07:08.611 | DEBUG	pointerdb	metainfo/config.go:104	Connected to:	{"db source": "postgres://yingrongzhao@localhost/storjsim?sslmode=disable&options=--search_path%3D%22satellite%2F0%2Fmeta%22"}
+satellite-repairer/0                      10:07:08.611 | INFO	satellite/repairer.go:104	Version info	{"Version": "0.0.0", "Commit Hash": "", "Build Timestamp": "0001-01-01 00:00:00 +0000 UTC", "Release Build": false}
+satellite-garbage-collection/0            10:07:08.611 | DEBUG	pointerdb	metainfo/config.go:104	Connected to:	{"db source": "postgres://yingrongzhao@localhost/storjsim?sslmode=disable&options=--search_path%3D%22satellite%2F0%2Fmeta%22"}
+satellite-garbage-collection/0            10:07:08.611 | INFO	satellite/gc.go:106	Version info	{"Version": "0.0.0", "Commit Hash": "", "Build Timestamp": "0001-01-01 00:00:00 +0000 UTC", "Release Build": false}
+satellite-repairer/0                      10:07:08.611 | DEBUG	process/metrics.go:66	Telemetry disabled
+satellite-core/0                          10:07:08.612 | DEBUG	process/metrics.go:66	Telemetry disabled
+satellite-garbage-collection/0            10:07:08.612 | DEBUG	process/metrics.go:66	Telemetry disabled
+satellite/0                               10:07:08.613 | DEBUG	pointerdb	metainfo/config.go:104	Connected to:	{"db source": "postgres://yingrongzhao@localhost/storjsim?sslmode=disable&options=--search_path%3D%22satellite%2F0%2Fmeta%22"}
+satellite/0                               10:07:08.613 | INFO	satellite/api.go:204	Version info	{"Version": "0.0.0", "Commit Hash": "", "Build Timestamp": "0001-01-01 00:00:00 +0000 UTC", "Release Build": false}
+satellite/0                               10:07:08.614 | DEBUG	marketing:endpoint	marketingweb/server.go:77	Starting Marketing Admin UI.	{"Address": "127.0.0.1:10003"}
+satellite/0                               10:07:08.615 | DEBUG	process/exec_conf.go:393	Unrecoverable error	{"error": "satellite marketing error: open /Users/yingrongzhao/work/storj/web/marketing/pages/base.html: no such file or directory", "errorVerbose": "satellite marketing error: open /Users/yingrongzhao/work/storj/web/marketing/pages/base.html: no such file or directory\n\tstorj.io/storj/satellite/marketingweb.(*Server).parseTemplates:149\n\tstorj.io/storj/satellite/marketingweb.NewServer:90\n\tstorj.io/storj/satellite.NewAPI:374\n\tmain.cmdAPIRun:73\n\tstorj.io/private/process.cleanup.func1.4:362\n\tstorj.io/private/process.cleanup.func1:380\n\tgithub.com/spf13/cobra.(*Command).execute:842\n\tgithub.com/spf13/cobra.(*Command).ExecuteC:950\n\tgithub.com/spf13/cobra.(*Command).Execute:887\n\tstorj.io/private/process.ExecWithCustomConfig:88\n\tstorj.io/private/process.ExecCustomDebug:70\n\tmain.main:735\n\truntime.main:204"}
+satellite-repairer/0                      10:07:08.618 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 127}
+satellite-repairer/0                      10:07:08.618 | DEBUG	servers	lifecycle/group.go:68	started	{"items": ["debug"]}
+                                                       | DEBUG	services	lifecycle/group.go:68	started	{"items": ["version", "overlay", "orders:chore", "repair"]}
+satellite-core/0                          10:07:08.620 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 127}
+                                                       | DEBUG	servers	lifecycle/group.go:68	started	{"items": ["debug"]}
+                                                       | DEBUG	services	lifecycle/group.go:68	started	{"items": ["version", "contact:service", "overlay", "overlay", "metainfo:loop", "repair:checker", "audit:worker", "audit:chore", "expireddeletion:chore", "dbcleanup", "accounting:tally", "accounting:rollup", "accounting:reported-rollup", "accounting:project-bw-rollup", "payments.stripe:service", "gracefulexit", "metrics", "downtime:detection", "downtime:estimation"]}
+                                                       | DEBUG	downtime:estimation	downtime/estimation_chore.go:53	checking uptime of failed nodes	{"interval": "30s"}
+satellite-core/0                          10:07:08.622 | DEBUG	dbcleanup	dbcleanup/chore.go:58	deleting expired serial numbers
+                                                       | INFO	payments.stripe:clearing	stripecoinpayments/clearing.go:61	running account balance update cycle
+satellite-core/0                          10:07:08.622 | INFO	payments.stripe:clearing	stripecoinpayments/clearing.go:50	running transactions update cycle
+satellite-core/0                          10:07:08.622 | DEBUG	downtime:detection	downtime/detection_chore.go:43	checking for nodes that have not had a successful check-in within the interval.	{"interval": "30s"}
+satellite-garbage-collection/0            10:07:08.626 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 127}
+                                                       | DEBUG	servers	lifecycle/group.go:68	started	{"items": ["debug"]}
+                                                       | DEBUG	services	lifecycle/group.go:68	started	{"items": ["version", "metainfo:loop", "garbage-collection", "metrics"]}
+satellite-core/0                          10:07:08.631 | DEBUG	downtime:detection	downtime/detection_chore.go:51	nodes that have had not had a successful check-in with the interval.	{"interval": "30s", "count": 0}
+gateway/0                                 10:07:08.675 | INFO	process/exec_conf.go:277	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/gateway/0/config.yaml"}
+gateway/0                                 10:07:08.675 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+gateway/0                                 10:07:08.675 | DEBUG	process/metrics.go:66	Telemetry disabled
+gateway/0                                 10:07:08.675 | INFO	gateway@v1.1.9-0.20201007143027-871c5633d835/main.go:122	Starting Tardigrade S3 Gateway
+                                                       | 
+                                                       | 
+                                                       | INFO	gateway@v1.1.9-0.20201007143027-871c5633d835/main.go:123	Endpoint: 127.0.0.1:11000
+                                                       | 
+                                                       | INFO	gateway@v1.1.9-0.20201007143027-871c5633d835/main.go:124	Access key: use your Tardigrade Access Grant
+                                                       | 
+                                                       | INFO	gateway@v1.1.9-0.20201007143027-871c5633d835/main.go:125	Secret key: anything would work
+                                                       | 
+gateway/0                                 10:07:08.675 | DEBUG	process/debug.go:37	debug server listening on 127.0.0.1:11009
+storagenode/2                             10:07:08.684 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/storagenode/2/config.yaml"}
+storagenode/2                             10:07:08.684 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+storagenode/1                             10:07:08.691 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/storagenode/1/config.yaml"}
+storagenode/9                             10:07:08.691 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/storagenode/9/config.yaml"}
+storagenode/9                             10:07:08.692 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+storagenode/1                             10:07:08.692 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+storagenode/2                             10:07:08.693 | INFO	storagenode/operator.go:34	Operator email	{"Address": "storage2@mail.test"}
+storagenode/2                             10:07:08.693 | INFO	storagenode/operator.go:48	Operator wallet	{"Address": "0x0123456789012345678901234567890123456789"}
+storagenode/3                             10:07:08.695 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/storagenode/3/config.yaml"}
+storagenode/3                             10:07:08.696 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+storagenode/7                             10:07:08.696 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/storagenode/7/config.yaml"}
+storagenode/7                             10:07:08.696 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+storagenode/4                             10:07:08.697 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/storagenode/4/config.yaml"}
+storagenode/4                             10:07:08.697 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+storagenode/1                             10:07:08.701 | INFO	storagenode/operator.go:34	Operator email	{"Address": "storage1@mail.test"}
+satellite-core/0                          10:07:08.701 | DEBUG	payments.stripe:service	stripecoinpayments/service.go:182	no transactions found, skipping update
+storagenode/1                             10:07:08.701 | INFO	storagenode/operator.go:48	Operator wallet	{"Address": "0x0123456789012345678901234567890123456789"}
+storagenode/9                             10:07:08.701 | INFO	storagenode/operator.go:34	Operator email	{"Address": "storage9@mail.test"}
+storagenode/9                             10:07:08.702 | INFO	storagenode/operator.go:48	Operator wallet	{"Address": "0x0123456789012345678901234567890123456789"}
+satellite-core/0                          10:07:08.703 | DEBUG	dbcleanup	dbcleanup/chore.go:66	expired serials deleted	{"items deleted": 0}
+satellite-core/0                          10:07:08.704 | DEBUG	accounting:reported-rollup	reportedrollup/chore.go:212	Read work	{"bucket_rollups": 0, "storagenode_rollups": 0, "consumed_serials": 0, "done": true}
+storagenode/6                             10:07:08.704 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/storagenode/6/config.yaml"}
+storagenode/6                             10:07:08.704 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+storagenode/3                             10:07:08.705 | INFO	storagenode/operator.go:34	Operator email	{"Address": "storage3@mail.test"}
+storagenode/3                             10:07:08.705 | INFO	storagenode/operator.go:48	Operator wallet	{"Address": "0x0123456789012345678901234567890123456789"}
+storagenode/7                             10:07:08.705 | INFO	storagenode/operator.go:34	Operator email	{"Address": "storage7@mail.test"}
+storagenode/7                             10:07:08.705 | INFO	storagenode/operator.go:48	Operator wallet	{"Address": "0x0123456789012345678901234567890123456789"}
+storagenode/4                             10:07:08.706 | INFO	storagenode/operator.go:34	Operator email	{"Address": "storage4@mail.test"}
+storagenode/4                             10:07:08.706 | INFO	storagenode/operator.go:48	Operator wallet	{"Address": "0x0123456789012345678901234567890123456789"}
+storagenode/8                             10:07:08.708 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/storagenode/8/config.yaml"}
+storagenode/8                             10:07:08.708 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+storagenode/5                             10:07:08.708 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/storagenode/5/config.yaml"}
+storagenode/5                             10:07:08.708 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+storagenode/0                             10:07:08.710 | INFO	process/exec_conf.go:284	Configuration loaded	{"Location": "/Users/yingrongzhao/Library/Application Support/Storj/Local-Network/storagenode/0/config.yaml"}
+storagenode/0                             10:07:08.711 | DEBUG	process/tracing.go:74	Anonymized tracing disabled
+storagenode/6                             10:07:08.713 | INFO	storagenode/operator.go:34	Operator email	{"Address": "storage6@mail.test"}
+storagenode/6                             10:07:08.713 | INFO	storagenode/operator.go:48	Operator wallet	{"Address": "0x0123456789012345678901234567890123456789"}
+storagenode/8                             10:07:08.717 | INFO	storagenode/operator.go:34	Operator email	{"Address": "storage8@mail.test"}
+storagenode/8                             10:07:08.717 | INFO	storagenode/operator.go:48	Operator wallet	{"Address": "0x0123456789012345678901234567890123456789"}
+storagenode/5                             10:07:08.718 | INFO	storagenode/operator.go:34	Operator email	{"Address": "storage5@mail.test"}
+storagenode/5                             10:07:08.718 | INFO	storagenode/operator.go:48	Operator wallet	{"Address": "0x0123456789012345678901234567890123456789"}
+satellite-core/0                          10:07:08.718 | INFO	accounting:rollup	rollup/rollup.go:148	Rollup found no new bw rollups
+                                                       | INFO	accounting:rollup	rollup/rollup.go:85	RollupStats is empty
+storagenode/0                             10:07:08.720 | INFO	storagenode/operator.go:34	Operator email	{"Address": "storage0@mail.test"}
+storagenode/0                             10:07:08.720 | INFO	storagenode/operator.go:48	Operator wallet	{"Address": "0x0123456789012345678901234567890123456789"}
+satellite-core/0                          10:07:08.722 | DEBUG	dbcleanup	dbcleanup/chore.go:73	expired serials deleted	{"items deleted": 0}
+storagenode/1                             10:07:08.725 | DEBUG	process/metrics.go:66	Telemetry disabled
+storagenode/3                             10:07:08.728 | DEBUG	process/metrics.go:66	Telemetry disabled
+storagenode/4                             10:07:08.730 | DEBUG	process/metrics.go:66	Telemetry disabled
+storagenode/7                             10:07:08.731 | DEBUG	process/metrics.go:66	Telemetry disabled
+storagenode/1                             10:07:08.731 | INFO	db.migration	migrate/versions.go:209	Database Version	{"version": 45}
+storagenode/1                             10:07:08.732 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 45}
+storagenode/3                             10:07:08.737 | INFO	db.migration	migrate/versions.go:209	Database Version	{"version": 45}
+storagenode/4                             10:07:08.737 | INFO	db.migration	migrate/versions.go:209	Database Version	{"version": 45}
+storagenode/4                             10:07:08.739 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 45}
+storagenode/3                             10:07:08.739 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 45}
+storagenode/7                             10:07:08.739 | INFO	db.migration	migrate/versions.go:209	Database Version	{"version": 45}
+storagenode/7                             10:07:08.741 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 45}
+storagenode/6                             10:07:08.742 | DEBUG	process/metrics.go:66	Telemetry disabled
+storagenode/8                             10:07:08.745 | DEBUG	process/metrics.go:66	Telemetry disabled
+storagenode/0                             10:07:08.749 | DEBUG	process/metrics.go:66	Telemetry disabled
+storagenode/6                             10:07:08.749 | INFO	db.migration	migrate/versions.go:209	Database Version	{"version": 45}
+storagenode/6                             10:07:08.750 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 45}
+storagenode/8                             10:07:08.751 | INFO	db.migration	migrate/versions.go:209	Database Version	{"version": 45}
+storagenode/8                             10:07:08.752 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 45}
+storagenode/5                             10:07:08.753 | DEBUG	process/metrics.go:66	Telemetry disabled
+storagenode/0                             10:07:08.754 | INFO	db.migration	migrate/versions.go:209	Database Version	{"version": 45}
+storagenode/0                             10:07:08.756 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 45}
+storagenode/1                             10:07:08.759 | DEBUG	trust	trust/list.go:100	Fetched URLs from source; updating cache	{"source": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9@127.0.0.1:10000", "count": 1}
+storagenode/5                             10:07:08.762 | INFO	db.migration	migrate/versions.go:209	Database Version	{"version": 45}
+storagenode/5                             10:07:08.763 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 45}
+storagenode/9                             10:07:08.771 | DEBUG	process/metrics.go:66	Telemetry disabled
+storagenode/2                             10:07:08.772 | DEBUG	process/metrics.go:66	Telemetry disabled
+storagenode/9                             10:07:08.777 | INFO	db.migration	migrate/versions.go:209	Database Version	{"version": 45}
+storagenode/3                             10:07:08.777 | DEBUG	trust	trust/list.go:100	Fetched URLs from source; updating cache	{"source": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9@127.0.0.1:10000", "count": 1}
+storagenode/9                             10:07:08.778 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 45}
+storagenode/2                             10:07:08.778 | INFO	db.migration	migrate/versions.go:209	Database Version	{"version": 45}
+storagenode/2                             10:07:08.807 | DEBUG	db	migrate/versions.go:143	Database version is up to date	{"version": 45}
+storagenode/1                             10:07:08.809 | DEBUG	trust	trust/service.go:195	Satellite is trusted	{"id": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9"}
+storagenode/7                             10:07:08.809 | DEBUG	trust	trust/list.go:100	Fetched URLs from source; updating cache	{"source": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9@127.0.0.1:10000", "count": 1}
+storagenode/1                             10:07:08.809 | INFO	preflight:localtime	preflight/localtime.go:54	start checking local system clock with trusted satellites' system clock.
+storagenode/4                             10:07:08.809 | DEBUG	trust	trust/list.go:100	Fetched URLs from source; updating cache	{"source": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9@127.0.0.1:10000", "count": 1}
+storagenode/6                             10:07:08.814 | DEBUG	trust	trust/list.go:100	Fetched URLs from source; updating cache	{"source": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9@127.0.0.1:10000", "count": 1}
+storagenode/3                             10:07:08.818 | DEBUG	trust	trust/service.go:195	Satellite is trusted	{"id": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9"}
+storagenode/3                             10:07:08.831 | INFO	preflight:localtime	preflight/localtime.go:54	start checking local system clock with trusted satellites' system clock.
+storagenode/4                             10:07:08.831 | DEBUG	trust	trust/service.go:195	Satellite is trusted	{"id": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9"}
+                                                       | INFO	preflight:localtime	preflight/localtime.go:54	start checking local system clock with trusted satellites' system clock.
+storagenode/7                             10:07:08.831 | DEBUG	trust	trust/service.go:195	Satellite is trusted	{"id": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9"}
+                                                       | INFO	preflight:localtime	preflight/localtime.go:54	start checking local system clock with trusted satellites' system clock.
+storagenode/0                             10:07:08.833 | DEBUG	trust	trust/list.go:100	Fetched URLs from source; updating cache	{"source": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9@127.0.0.1:10000", "count": 1}
+storagenode/6                             10:07:08.838 | DEBUG	trust	trust/service.go:195	Satellite is trusted	{"id": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9"}
+storagenode/6                             10:07:08.838 | INFO	preflight:localtime	preflight/localtime.go:54	start checking local system clock with trusted satellites' system clock.
+storagenode/5                             10:07:08.840 | DEBUG	trust	trust/list.go:100	Fetched URLs from source; updating cache	{"source": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9@127.0.0.1:10000", "count": 1}
+storagenode/0                             10:07:08.851 | DEBUG	trust	trust/service.go:195	Satellite is trusted	{"id": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9"}
+storagenode/0                             10:07:08.851 | INFO	preflight:localtime	preflight/localtime.go:54	start checking local system clock with trusted satellites' system clock.
+storagenode/8                             10:07:08.854 | DEBUG	trust	trust/list.go:100	Fetched URLs from source; updating cache	{"source": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9@127.0.0.1:10000", "count": 1}
+storagenode/2                             10:07:08.857 | DEBUG	trust	trust/list.go:100	Fetched URLs from source; updating cache	{"source": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9@127.0.0.1:10000", "count": 1}
+storagenode/5                             10:07:08.858 | DEBUG	trust	trust/service.go:195	Satellite is trusted	{"id": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9"}
+storagenode/9                             10:07:08.859 | DEBUG	trust	trust/list.go:100	Fetched URLs from source; updating cache	{"source": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9@127.0.0.1:10000", "count": 1}
+storagenode/5                             10:07:08.869 | INFO	preflight:localtime	preflight/localtime.go:54	start checking local system clock with trusted satellites' system clock.
+storagenode/8                             10:07:08.869 | DEBUG	trust	trust/service.go:195	Satellite is trusted	{"id": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9"}
+storagenode/8                             10:07:08.879 | INFO	preflight:localtime	preflight/localtime.go:54	start checking local system clock with trusted satellites' system clock.
+storagenode/2                             10:07:08.880 | DEBUG	trust	trust/service.go:195	Satellite is trusted	{"id": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9"}
+storagenode/2                             10:07:08.880 | INFO	preflight:localtime	preflight/localtime.go:54	start checking local system clock with trusted satellites' system clock.
+storagenode/9                             10:07:08.886 | DEBUG	trust	trust/service.go:195	Satellite is trusted	{"id": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9"}
+storagenode/9                             10:07:08.886 | INFO	preflight:localtime	preflight/localtime.go:54	start checking local system clock with trusted satellites' system clock.
+storagenode/1                             10:07:18.811 | ERROR	preflight:localtime	preflight/localtime.go:69	unable to get satellite system time	{"Satellite ID": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9", "error": "NO_ERROR: Handshake did not complete in time"}
+                                                       | storj.io/storj/storagenode/preflight.(*LocalTime).Check.func1
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/preflight/localtime.go:69
+                                                       | golang.org/x/sync/errgroup.(*Group).Go.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/golang.org/x/sync@v0.0.0-20200625203802-6e8e738ad208/errgroup/errgroup.go:57
+storagenode/1                             10:07:18.812 | FATAL	storagenode/peer.go:741	Failed preflight check.	{"error": "system clock is out of sync: system clock is out of sync with all trusted satellites", "errorVerbose": "system clock is out of sync: system clock is out of sync with all trusted satellites\n\tstorj.io/storj/storagenode/preflight.(*LocalTime).Check:96\n\tstorj.io/storj/storagenode.(*Peer).Run:740\n\tmain.cmdRun:209\n\tstorj.io/private/process.cleanup.func1.4:362\n\tstorj.io/private/process.cleanup.func1:380\n\tgithub.com/spf13/cobra.(*Command).execute:842\n\tgithub.com/spf13/cobra.(*Command).ExecuteC:950\n\tgithub.com/spf13/cobra.(*Command).Execute:887\n\tstorj.io/private/process.ExecWithCustomConfig:88\n\tstorj.io/private/process.ExecCustomDebug:70\n\tmain.main:335\n\truntime.main:204"}
+                                                       | storj.io/storj/storagenode.(*Peer).Run
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/peer.go:741
+                                                       | main.cmdRun
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:209
+                                                       | storj.io/private/process.cleanup.func1.4
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:362
+                                                       | storj.io/private/process.cleanup.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:380
+                                                       | github.com/spf13/cobra.(*Command).execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:842
+                                                       | github.com/spf13/cobra.(*Command).ExecuteC
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:950
+                                                       | github.com/spf13/cobra.(*Command).Execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:887
+                                                       | storj.io/private/process.ExecWithCustomConfig
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:88
+                                                       | storj.io/private/process.ExecCustomDebug
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:70
+                                                       | main.main
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:335
+                                                       | runtime.main
+                                                       | 	/usr/local/Cellar/go/1.15.2/libexec/src/runtime/proc.go:204
+storagenode/3                             10:07:18.822 | ERROR	preflight:localtime	preflight/localtime.go:69	unable to get satellite system time	{"Satellite ID": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9", "error": "NO_ERROR: Handshake did not complete in time"}
+                                                       | storj.io/storj/storagenode/preflight.(*LocalTime).Check.func1
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/preflight/localtime.go:69
+                                                       | golang.org/x/sync/errgroup.(*Group).Go.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/golang.org/x/sync@v0.0.0-20200625203802-6e8e738ad208/errgroup/errgroup.go:57
+storagenode/3                             10:07:18.822 | FATAL	storagenode/peer.go:741	Failed preflight check.	{"error": "system clock is out of sync: system clock is out of sync with all trusted satellites", "errorVerbose": "system clock is out of sync: system clock is out of sync with all trusted satellites\n\tstorj.io/storj/storagenode/preflight.(*LocalTime).Check:96\n\tstorj.io/storj/storagenode.(*Peer).Run:740\n\tmain.cmdRun:209\n\tstorj.io/private/process.cleanup.func1.4:362\n\tstorj.io/private/process.cleanup.func1:380\n\tgithub.com/spf13/cobra.(*Command).execute:842\n\tgithub.com/spf13/cobra.(*Command).ExecuteC:950\n\tgithub.com/spf13/cobra.(*Command).Execute:887\n\tstorj.io/private/process.ExecWithCustomConfig:88\n\tstorj.io/private/process.ExecCustomDebug:70\n\tmain.main:335\n\truntime.main:204"}
+                                                       | storj.io/storj/storagenode.(*Peer).Run
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/peer.go:741
+                                                       | main.cmdRun
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:209
+                                                       | storj.io/private/process.cleanup.func1.4
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:362
+                                                       | storj.io/private/process.cleanup.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:380
+                                                       | github.com/spf13/cobra.(*Command).execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:842
+                                                       | github.com/spf13/cobra.(*Command).ExecuteC
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:950
+                                                       | github.com/spf13/cobra.(*Command).Execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:887
+                                                       | storj.io/private/process.ExecWithCustomConfig
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:88
+                                                       | storj.io/private/process.ExecCustomDebug
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:70
+                                                       | main.main
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:335
+                                                       | runtime.main
+                                                       | 	/usr/local/Cellar/go/1.15.2/libexec/src/runtime/proc.go:204
+storagenode/4                             10:07:18.837 | ERROR	preflight:localtime	preflight/localtime.go:69	unable to get satellite system time	{"Satellite ID": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9", "error": "NO_ERROR: Handshake did not complete in time"}
+                                                       | storj.io/storj/storagenode/preflight.(*LocalTime).Check.func1
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/preflight/localtime.go:69
+                                                       | golang.org/x/sync/errgroup.(*Group).Go.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/golang.org/x/sync@v0.0.0-20200625203802-6e8e738ad208/errgroup/errgroup.go:57
+storagenode/4                             10:07:18.837 | FATAL	storagenode/peer.go:741	Failed preflight check.	{"error": "system clock is out of sync: system clock is out of sync with all trusted satellites", "errorVerbose": "system clock is out of sync: system clock is out of sync with all trusted satellites\n\tstorj.io/storj/storagenode/preflight.(*LocalTime).Check:96\n\tstorj.io/storj/storagenode.(*Peer).Run:740\n\tmain.cmdRun:209\n\tstorj.io/private/process.cleanup.func1.4:362\n\tstorj.io/private/process.cleanup.func1:380\n\tgithub.com/spf13/cobra.(*Command).execute:842\n\tgithub.com/spf13/cobra.(*Command).ExecuteC:950\n\tgithub.com/spf13/cobra.(*Command).Execute:887\n\tstorj.io/private/process.ExecWithCustomConfig:88\n\tstorj.io/private/process.ExecCustomDebug:70\n\tmain.main:335\n\truntime.main:204"}
+                                                       | storj.io/storj/storagenode.(*Peer).Run
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/peer.go:741
+                                                       | main.cmdRun
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:209
+                                                       | storj.io/private/process.cleanup.func1.4
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:362
+                                                       | storj.io/private/process.cleanup.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:380
+                                                       | github.com/spf13/cobra.(*Command).execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:842
+                                                       | github.com/spf13/cobra.(*Command).ExecuteC
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:950
+                                                       | github.com/spf13/cobra.(*Command).Execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:887
+                                                       | storj.io/private/process.ExecWithCustomConfig
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:88
+                                                       | storj.io/private/process.ExecCustomDebug
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:70
+                                                       | main.main
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:335
+                                                       | runtime.main
+                                                       | 	/usr/local/Cellar/go/1.15.2/libexec/src/runtime/proc.go:204
+storagenode/7                             10:07:18.837 | ERROR	preflight:localtime	preflight/localtime.go:69	unable to get satellite system time	{"Satellite ID": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9", "error": "NO_ERROR: Handshake did not complete in time"}
+                                                       | storj.io/storj/storagenode/preflight.(*LocalTime).Check.func1
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/preflight/localtime.go:69
+                                                       | golang.org/x/sync/errgroup.(*Group).Go.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/golang.org/x/sync@v0.0.0-20200625203802-6e8e738ad208/errgroup/errgroup.go:57
+                                                       | FATAL	storagenode/peer.go:741	Failed preflight check.	{"error": "system clock is out of sync: system clock is out of sync with all trusted satellites", "errorVerbose": "system clock is out of sync: system clock is out of sync with all trusted satellites\n\tstorj.io/storj/storagenode/preflight.(*LocalTime).Check:96\n\tstorj.io/storj/storagenode.(*Peer).Run:740\n\tmain.cmdRun:209\n\tstorj.io/private/process.cleanup.func1.4:362\n\tstorj.io/private/process.cleanup.func1:380\n\tgithub.com/spf13/cobra.(*Command).execute:842\n\tgithub.com/spf13/cobra.(*Command).ExecuteC:950\n\tgithub.com/spf13/cobra.(*Command).Execute:887\n\tstorj.io/private/process.ExecWithCustomConfig:88\n\tstorj.io/private/process.ExecCustomDebug:70\n\tmain.main:335\n\truntime.main:204"}
+                                                       | storj.io/storj/storagenode.(*Peer).Run
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/peer.go:741
+                                                       | main.cmdRun
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:209
+                                                       | storj.io/private/process.cleanup.func1.4
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:362
+                                                       | storj.io/private/process.cleanup.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:380
+                                                       | github.com/spf13/cobra.(*Command).execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:842
+                                                       | github.com/spf13/cobra.(*Command).ExecuteC
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:950
+                                                       | github.com/spf13/cobra.(*Command).Execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:887
+                                                       | storj.io/private/process.ExecWithCustomConfig
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:88
+                                                       | storj.io/private/process.ExecCustomDebug
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:70
+                                                       | main.main
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:335
+                                                       | runtime.main
+                                                       | 	/usr/local/Cellar/go/1.15.2/libexec/src/runtime/proc.go:204
+storagenode/6                             10:07:18.842 | ERROR	preflight:localtime	preflight/localtime.go:69	unable to get satellite system time	{"Satellite ID": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9", "error": "NO_ERROR: Handshake did not complete in time"}
+                                                       | storj.io/storj/storagenode/preflight.(*LocalTime).Check.func1
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/preflight/localtime.go:69
+                                                       | golang.org/x/sync/errgroup.(*Group).Go.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/golang.org/x/sync@v0.0.0-20200625203802-6e8e738ad208/errgroup/errgroup.go:57
+storagenode/6                             10:07:18.842 | FATAL	storagenode/peer.go:741	Failed preflight check.	{"error": "system clock is out of sync: system clock is out of sync with all trusted satellites", "errorVerbose": "system clock is out of sync: system clock is out of sync with all trusted satellites\n\tstorj.io/storj/storagenode/preflight.(*LocalTime).Check:96\n\tstorj.io/storj/storagenode.(*Peer).Run:740\n\tmain.cmdRun:209\n\tstorj.io/private/process.cleanup.func1.4:362\n\tstorj.io/private/process.cleanup.func1:380\n\tgithub.com/spf13/cobra.(*Command).execute:842\n\tgithub.com/spf13/cobra.(*Command).ExecuteC:950\n\tgithub.com/spf13/cobra.(*Command).Execute:887\n\tstorj.io/private/process.ExecWithCustomConfig:88\n\tstorj.io/private/process.ExecCustomDebug:70\n\tmain.main:335\n\truntime.main:204"}
+                                                       | storj.io/storj/storagenode.(*Peer).Run
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/peer.go:741
+                                                       | main.cmdRun
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:209
+                                                       | storj.io/private/process.cleanup.func1.4
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:362
+                                                       | storj.io/private/process.cleanup.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:380
+                                                       | github.com/spf13/cobra.(*Command).execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:842
+                                                       | github.com/spf13/cobra.(*Command).ExecuteC
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:950
+                                                       | github.com/spf13/cobra.(*Command).Execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:887
+                                                       | storj.io/private/process.ExecWithCustomConfig
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:88
+                                                       | storj.io/private/process.ExecCustomDebug
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:70
+                                                       | main.main
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:335
+                                                       | runtime.main
+                                                       | 	/usr/local/Cellar/go/1.15.2/libexec/src/runtime/proc.go:204
+storagenode/0                             10:07:18.856 | ERROR	preflight:localtime	preflight/localtime.go:69	unable to get satellite system time	{"Satellite ID": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9", "error": "NO_ERROR: Handshake did not complete in time"}
+                                                       | storj.io/storj/storagenode/preflight.(*LocalTime).Check.func1
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/preflight/localtime.go:69
+                                                       | golang.org/x/sync/errgroup.(*Group).Go.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/golang.org/x/sync@v0.0.0-20200625203802-6e8e738ad208/errgroup/errgroup.go:57
+storagenode/0                             10:07:18.857 | FATAL	storagenode/peer.go:741	Failed preflight check.	{"error": "system clock is out of sync: system clock is out of sync with all trusted satellites", "errorVerbose": "system clock is out of sync: system clock is out of sync with all trusted satellites\n\tstorj.io/storj/storagenode/preflight.(*LocalTime).Check:96\n\tstorj.io/storj/storagenode.(*Peer).Run:740\n\tmain.cmdRun:209\n\tstorj.io/private/process.cleanup.func1.4:362\n\tstorj.io/private/process.cleanup.func1:380\n\tgithub.com/spf13/cobra.(*Command).execute:842\n\tgithub.com/spf13/cobra.(*Command).ExecuteC:950\n\tgithub.com/spf13/cobra.(*Command).Execute:887\n\tstorj.io/private/process.ExecWithCustomConfig:88\n\tstorj.io/private/process.ExecCustomDebug:70\n\tmain.main:335\n\truntime.main:204"}
+                                                       | storj.io/storj/storagenode.(*Peer).Run
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/peer.go:741
+                                                       | main.cmdRun
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:209
+                                                       | storj.io/private/process.cleanup.func1.4
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:362
+                                                       | storj.io/private/process.cleanup.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:380
+                                                       | github.com/spf13/cobra.(*Command).execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:842
+                                                       | github.com/spf13/cobra.(*Command).ExecuteC
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:950
+                                                       | github.com/spf13/cobra.(*Command).Execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:887
+                                                       | storj.io/private/process.ExecWithCustomConfig
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:88
+                                                       | storj.io/private/process.ExecCustomDebug
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:70
+                                                       | main.main
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:335
+                                                       | runtime.main
+                                                       | 	/usr/local/Cellar/go/1.15.2/libexec/src/runtime/proc.go:204
+storagenode/5                             10:07:18.859 | ERROR	preflight:localtime	preflight/localtime.go:69	unable to get satellite system time	{"Satellite ID": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9", "error": "NO_ERROR: Handshake did not complete in time"}
+                                                       | storj.io/storj/storagenode/preflight.(*LocalTime).Check.func1
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/preflight/localtime.go:69
+                                                       | golang.org/x/sync/errgroup.(*Group).Go.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/golang.org/x/sync@v0.0.0-20200625203802-6e8e738ad208/errgroup/errgroup.go:57
+storagenode/5                             10:07:18.859 | FATAL	storagenode/peer.go:741	Failed preflight check.	{"error": "system clock is out of sync: system clock is out of sync with all trusted satellites", "errorVerbose": "system clock is out of sync: system clock is out of sync with all trusted satellites\n\tstorj.io/storj/storagenode/preflight.(*LocalTime).Check:96\n\tstorj.io/storj/storagenode.(*Peer).Run:740\n\tmain.cmdRun:209\n\tstorj.io/private/process.cleanup.func1.4:362\n\tstorj.io/private/process.cleanup.func1:380\n\tgithub.com/spf13/cobra.(*Command).execute:842\n\tgithub.com/spf13/cobra.(*Command).ExecuteC:950\n\tgithub.com/spf13/cobra.(*Command).Execute:887\n\tstorj.io/private/process.ExecWithCustomConfig:88\n\tstorj.io/private/process.ExecCustomDebug:70\n\tmain.main:335\n\truntime.main:204"}
+                                                       | storj.io/storj/storagenode.(*Peer).Run
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/peer.go:741
+                                                       | main.cmdRun
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:209
+                                                       | storj.io/private/process.cleanup.func1.4
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:362
+                                                       | storj.io/private/process.cleanup.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:380
+                                                       | github.com/spf13/cobra.(*Command).execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:842
+                                                       | github.com/spf13/cobra.(*Command).ExecuteC
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:950
+                                                       | github.com/spf13/cobra.(*Command).Execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:887
+                                                       | storj.io/private/process.ExecWithCustomConfig
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:88
+                                                       | storj.io/private/process.ExecCustomDebug
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:70
+                                                       | main.main
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:335
+                                                       | runtime.main
+                                                       | 	/usr/local/Cellar/go/1.15.2/libexec/src/runtime/proc.go:204
+storagenode/8                             10:07:18.872 | ERROR	preflight:localtime	preflight/localtime.go:69	unable to get satellite system time	{"Satellite ID": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9", "error": "NO_ERROR: Handshake did not complete in time"}
+                                                       | storj.io/storj/storagenode/preflight.(*LocalTime).Check.func1
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/preflight/localtime.go:69
+                                                       | golang.org/x/sync/errgroup.(*Group).Go.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/golang.org/x/sync@v0.0.0-20200625203802-6e8e738ad208/errgroup/errgroup.go:57
+storagenode/8                             10:07:18.873 | FATAL	storagenode/peer.go:741	Failed preflight check.	{"error": "system clock is out of sync: system clock is out of sync with all trusted satellites", "errorVerbose": "system clock is out of sync: system clock is out of sync with all trusted satellites\n\tstorj.io/storj/storagenode/preflight.(*LocalTime).Check:96\n\tstorj.io/storj/storagenode.(*Peer).Run:740\n\tmain.cmdRun:209\n\tstorj.io/private/process.cleanup.func1.4:362\n\tstorj.io/private/process.cleanup.func1:380\n\tgithub.com/spf13/cobra.(*Command).execute:842\n\tgithub.com/spf13/cobra.(*Command).ExecuteC:950\n\tgithub.com/spf13/cobra.(*Command).Execute:887\n\tstorj.io/private/process.ExecWithCustomConfig:88\n\tstorj.io/private/process.ExecCustomDebug:70\n\tmain.main:335\n\truntime.main:204"}
+                                                       | storj.io/storj/storagenode.(*Peer).Run
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/peer.go:741
+                                                       | main.cmdRun
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:209
+                                                       | storj.io/private/process.cleanup.func1.4
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:362
+                                                       | storj.io/private/process.cleanup.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:380
+                                                       | github.com/spf13/cobra.(*Command).execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:842
+                                                       | github.com/spf13/cobra.(*Command).ExecuteC
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:950
+                                                       | github.com/spf13/cobra.(*Command).Execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:887
+                                                       | storj.io/private/process.ExecWithCustomConfig
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:88
+                                                       | storj.io/private/process.ExecCustomDebug
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:70
+                                                       | main.main
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:335
+                                                       | runtime.main
+                                                       | 	/usr/local/Cellar/go/1.15.2/libexec/src/runtime/proc.go:204
+storagenode/2                             10:07:18.885 | ERROR	preflight:localtime	preflight/localtime.go:69	unable to get satellite system time	{"Satellite ID": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9", "error": "NO_ERROR: Handshake did not complete in time"}
+                                                       | storj.io/storj/storagenode/preflight.(*LocalTime).Check.func1
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/preflight/localtime.go:69
+                                                       | golang.org/x/sync/errgroup.(*Group).Go.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/golang.org/x/sync@v0.0.0-20200625203802-6e8e738ad208/errgroup/errgroup.go:57
+storagenode/2                             10:07:18.885 | FATAL	storagenode/peer.go:741	Failed preflight check.	{"error": "system clock is out of sync: system clock is out of sync with all trusted satellites", "errorVerbose": "system clock is out of sync: system clock is out of sync with all trusted satellites\n\tstorj.io/storj/storagenode/preflight.(*LocalTime).Check:96\n\tstorj.io/storj/storagenode.(*Peer).Run:740\n\tmain.cmdRun:209\n\tstorj.io/private/process.cleanup.func1.4:362\n\tstorj.io/private/process.cleanup.func1:380\n\tgithub.com/spf13/cobra.(*Command).execute:842\n\tgithub.com/spf13/cobra.(*Command).ExecuteC:950\n\tgithub.com/spf13/cobra.(*Command).Execute:887\n\tstorj.io/private/process.ExecWithCustomConfig:88\n\tstorj.io/private/process.ExecCustomDebug:70\n\tmain.main:335\n\truntime.main:204"}
+                                                       | storj.io/storj/storagenode.(*Peer).Run
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/peer.go:741
+                                                       | main.cmdRun
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:209
+                                                       | storj.io/private/process.cleanup.func1.4
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:362
+                                                       | storj.io/private/process.cleanup.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:380
+                                                       | github.com/spf13/cobra.(*Command).execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:842
+                                                       | github.com/spf13/cobra.(*Command).ExecuteC
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:950
+                                                       | github.com/spf13/cobra.(*Command).Execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:887
+                                                       | storj.io/private/process.ExecWithCustomConfig
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:88
+                                                       | storj.io/private/process.ExecCustomDebug
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:70
+                                                       | main.main
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:335
+                                                       | runtime.main
+                                                       | 	/usr/local/Cellar/go/1.15.2/libexec/src/runtime/proc.go:204
+storagenode/9                             10:07:18.891 | ERROR	preflight:localtime	preflight/localtime.go:69	unable to get satellite system time	{"Satellite ID": "1JU5amcn4pk7rFf5yZiXM5daBV9aYjPM1aeAXu174WTMRpo4o9", "error": "NO_ERROR: Handshake did not complete in time"}
+                                                       | storj.io/storj/storagenode/preflight.(*LocalTime).Check.func1
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/preflight/localtime.go:69
+                                                       | golang.org/x/sync/errgroup.(*Group).Go.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/golang.org/x/sync@v0.0.0-20200625203802-6e8e738ad208/errgroup/errgroup.go:57
+storagenode/9                             10:07:18.891 | FATAL	storagenode/peer.go:741	Failed preflight check.	{"error": "system clock is out of sync: system clock is out of sync with all trusted satellites", "errorVerbose": "system clock is out of sync: system clock is out of sync with all trusted satellites\n\tstorj.io/storj/storagenode/preflight.(*LocalTime).Check:96\n\tstorj.io/storj/storagenode.(*Peer).Run:740\n\tmain.cmdRun:209\n\tstorj.io/private/process.cleanup.func1.4:362\n\tstorj.io/private/process.cleanup.func1:380\n\tgithub.com/spf13/cobra.(*Command).execute:842\n\tgithub.com/spf13/cobra.(*Command).ExecuteC:950\n\tgithub.com/spf13/cobra.(*Command).Execute:887\n\tstorj.io/private/process.ExecWithCustomConfig:88\n\tstorj.io/private/process.ExecCustomDebug:70\n\tmain.main:335\n\truntime.main:204"}
+                                                       | storj.io/storj/storagenode.(*Peer).Run
+                                                       | 	/Users/yingrongzhao/work/network/storj/storagenode/peer.go:741
+                                                       | main.cmdRun
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:209
+                                                       | storj.io/private/process.cleanup.func1.4
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:362
+                                                       | storj.io/private/process.cleanup.func1
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:380
+                                                       | github.com/spf13/cobra.(*Command).execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:842
+                                                       | github.com/spf13/cobra.(*Command).ExecuteC
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:950
+                                                       | github.com/spf13/cobra.(*Command).Execute
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/github.com/spf13/cobra@v1.0.0/command.go:887
+                                                       | storj.io/private/process.ExecWithCustomConfig
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:88
+                                                       | storj.io/private/process.ExecCustomDebug
+                                                       | 	/Users/yingrongzhao/go/pkg/mod/storj.io/private@v0.0.0-20200925142346-4c879709882f/process/exec_conf.go:70
+                                                       | main.main
+                                                       | 	/Users/yingrongzhao/work/network/storj/cmd/storagenode/main.go:335
+                                                       | runtime.main
+                                                       | 	/usr/local/Cellar/go/1.15.2/libexec/src/runtime/proc.go:204
